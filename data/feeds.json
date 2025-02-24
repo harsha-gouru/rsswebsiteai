@@ -1,0 +1,15 @@
+[
+  {
+    "url": "https://blog.vercel.com/feed.xml",
+    "title": "Vercel Blog"
+  },
+  {
+    "url": "https://nextjs.org/feed.xml",
+    "title": "Next.js Blog"
+  },
+  {
+    "url": "https://reactjs.org/feed.xml",
+    "title": "React Blog"
+  }
+]
+
