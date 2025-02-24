@@ -2,7 +2,7 @@
 
 A modern RSS feed reader with a retro aesthetic and AI-powered features. Stay updated with your favorite feeds while getting intelligent summaries, analysis, and recommendations.
 
-![Retro RSS Reader](public/placeholder-logo.svg)
+![Retro RSS Reader](public/placeholder-logo.svg "Retro RSS Reader Logo")
 
 ## Features
 
