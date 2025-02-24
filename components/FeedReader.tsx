@@ -17,6 +17,19 @@ export default function FeedReader() {
   useEffect(() => {
     fetchFeeds()
   }, [])
+  
+  // Set up a refresh interval for feeds data
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      fetchFeeds()
+      // If a feed is selected, refresh its articles too
+      if (selectedFeed) {
+        handleFeedSelect(selectedFeed)
+      }
+    }, 300000) // Refresh every 5 minutes
+    
+    return () => clearInterval(intervalId)
+  }, [selectedFeed])
 
   const fetchFeeds = async () => {
     setIsLoading(true)

@@ -10,6 +10,9 @@
   {
     "url": "https://reactjs.org/feed.xml",
     "title": "React Blog"
+  },
+  {
+    "url": "https://feeds.bbci.co.uk/news/rss.xml",
+    "title": "bbc top"
   }
 ]
-
